@@ -1,5 +1,5 @@
 {% set name = "html-proofer" %}
-{% set version = "3.12.2" %}
+{% set version = "3.13.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 1e5249e3eb3887be985f1a6f63ad915bc12588457c87605f1f7362ba1f646c76
+  sha256: 2eadd95a17576470460d1e34098d5d07f5a67530c4d0eb5c7a040a4fc001c2a8
 
 build:
   noarch: generic
